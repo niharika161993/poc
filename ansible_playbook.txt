@@ -1,0 +1,8 @@
+root@master-VirtualBox:~/ansible# cat playbook.txt 
+-
+
+  name: ansible devops 123
+  hosts: localhost
+  tasks:
+    - name: ping test
+      command: 'docker run -it -d --name 123456 -p 6090:5050 niharikagupta123/new-repo'
