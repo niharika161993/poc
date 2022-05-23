@@ -1,0 +1,13 @@
+#service
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: loginwebapp
+spec:
+  selector:
+    apps: webapp
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 4001
