@@ -1,0 +1,8 @@
+├── playbook.txt
+├── roles
+│   └── myplay
+│       ├── tasks
+│       │   └── main.yaml
+│       └── vars
+│           └── main.yaml
+└── server.yaml
